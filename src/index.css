@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+
+}
+
+body {
+  background: linear-gradient(45deg , #5700e3, #0010e99c, #6d3af092);
+  background: linear-gradient(45deg , #000, #3b3b3b, #626262);
+}
+
+/* body {
+  background: linear-gradient(45deg, #000, #3b3b3b, #626262);
+  animation: ani 30s ease infinite;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.txtOutlineCSS{
+  font-family: 'Rubik Scribble', system-ui;
+  font-family: 'Rubik Doodle Shadow';
+}
+.txtOutlineCSS1{
+  font-family: 'Black Ops One', sans-serif;
+}
+
+.txtOutlineCSS3 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(228, 207, 255);
+  background-image: transparent;
+  color:transparent;
+}
+.txtOutlineCSS2{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(228, 207, 255);
+	color: white;
+	/* font-size: 40px; */
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				  1px -1px 0 #000,
+				 -1px -1px 0 #000;
+}
+
+
+
+/* ========= gradient text/bg ========= */
+.gradient-text {
+  background-image: linear-gradient(to right, #ffe4fa, #b6b6ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-text2 {
+  background-image: linear-gradient(to right, #ffb8f2, #8484ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-text_tshirt{
+  background-image: linear-gradient(to right, #8eaecdd8, #7827fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-bg{
+  background: linear-gradient(45deg,rgba(31, 31, 251, 0.72), rgba(175, 3, 175, 0.74))
+}
+/* ========= gradient text/bg ========= */
+
