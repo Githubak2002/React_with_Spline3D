@@ -11,7 +11,7 @@ export const LandingPg = () => {
           maxime incidunt quia maiores debitis, odit tenetur dolores.
         </p>
       </div>
-      <div className="z-10 flexCenter">
+      <div className="z-10 flexCenter h-full">
         <Spline_home />
       </div>
     </section>
