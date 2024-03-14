@@ -1,5 +1,6 @@
 import React from "react";
 import Spline_tshirt from "./Spline_tshirt";
+import Spline_iphone from "./Spline_iPhone";
 
 export const Experience3D = () => {
   return (
@@ -8,6 +9,7 @@ export const Experience3D = () => {
         Adding 3D components to Website
       </h2>
       <Spline_tshirt />
+      <Spline_iphone />
     </section>
   );
 };
