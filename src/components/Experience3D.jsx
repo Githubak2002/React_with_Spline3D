@@ -1,12 +1,13 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
-import { my_3d_mod } from "../constant";
+import { my_3d_mod, other_links } from "../constant";
+import { Link } from "react-router-dom";
 
 export const Experience3D = () => {
   return (
     <section className="px-3 sm:px-10">
       <main className="flexCenter lg:flex-row flex-col">
-        <div className="w-full lg:w-[30%]  ">
+        <div className="w-full lg:w-[30%] flexCenter flex-col  ">
           <h2 className="text-4xl txtOutlineCSS gradient-text_tshirt pb-7">
             Some of my 3D Models made using Blender 3D
           </h2>
@@ -18,13 +19,26 @@ export const Experience3D = () => {
             believe that genuine interest fuels effective learning and
             implementation. I 💖 3D modelling, Animation, VR, Gaming...
           </p>
+          <div className="flexCenter flex-wrap gap-6 mt-5">
+            {other_links.map((link, i) => {
+              return (
+                <Link to={link.links} target="blank">
+                  <button className="border-[1px] p-2 text-blue-400 ">
+                    {link.label}
+                  </button>
+                </Link>
+              );
+            })}
+            {/* <button className="border-[1px] rounded-xl p-2 text-blue-400 "></button>
+            <button>My Wesite</button> */}
+          </div>
         </div>
         <div className="flexCenter gap-10 flex-wrap w-full lg:w-[70%] h-full lg:py-0 py-10">
           {my_3d_mod.map((ele, i) => {
             return (
               <div
                 key={i}
-                className="border-[1px] rounded-xl w-full lg:w-[286px] h-full lg:h-[286px] hover:cursor-grab flexCenter"
+                className="border-[1px] rounded-xl w-full lg:w-[286px] lg:py-auto h-[300px] md:h[400px] lg:h-[286px] hover:cursor-grab flexCenter"
               >
                 <Spline scene={ele.scene_link} />
               </div>
@@ -32,6 +46,10 @@ export const Experience3D = () => {
           })}
         </div>
       </main>
+
+      {/* <div className="lg:">
+
+      </div> */}
 
       {/* ============== 3D thirt ============== */}
       {/* <main className="flexCenter flex-wrap w-full">

@@ -36,6 +36,16 @@ export const my_3d_mod = [
   },
 ];
 
+export const other_links = [
+  {
+    label:"Explore more → models & animations",
+    links:"https://photos.google.com/share/AF1QipPkPtOaciQZSgHxdoSCCr7qlZSo70YXjoFwfX4jjvfOby40flUWb3ipYbV5cud-sQ?key=a0FOR0JLM1Njd1djeWtUejRpQmd1N2hKOVlFUlZn",
+  },
+  {
+    label:"My website",
+    links:"https://ak-nextjs-portfolio.vercel.app",
+  },
+]
 
 
 export const experience_section = [
@@ -52,3 +62,4 @@ export const experience_section = [
     scene_link: "https://prod.spline.design/M3ytWHzWkCs1b6AK/scene.splinecode",
   },
 ];
+
