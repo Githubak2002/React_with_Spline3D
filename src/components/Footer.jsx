@@ -4,7 +4,7 @@ import { CiHeart } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 
-import 'remixicon/fonts/remixicon.css'
+import "remixicon/fonts/remixicon.css";
 import { Link } from "react-router-dom";
 // import { FaRegHeart } from "react-icons/fa";
 
@@ -12,7 +12,7 @@ const hover_css = "hover:scale-125 transition-all";
 
 const Footer = () => {
   return (
-    <footer className="mt-10 py-5 border-t-[1.2px] flexCenter flex-col gap-y-4 text-white">
+    <footer className="mt-10 py-5 border-[#6d9ffdd1] border-t-[1.2px] flexCenter flex-col gap-y-4 text-[#6d9ffdd1]">
       <h2 className="flexCenter gap-2 text-base sm:text-xl ">
         Made wiht
         <CiHeart />
