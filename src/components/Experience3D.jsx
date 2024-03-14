@@ -7,7 +7,7 @@ export const Experience3D = () => {
   return (
     <section className="px-3 sm:px-10">
       <main className="flexCenter lg:flex-row flex-col">
-        <div className="w-full lg:w-[30%] flexCenter flex-col  ">
+        <div className="w-full lg:w-[30%] flexCenter flex-col px-3 sm:px-0 ">
           <h2 className="text-4xl txtOutlineCSS gradient-text_tshirt pb-7">
             Some of my 3D Models made using Blender 3D
           </h2>
