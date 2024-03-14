@@ -12,7 +12,7 @@ const hover_css = "hover:scale-125 transition-all";
 
 const Footer = () => {
   return (
-    <footer className="mt-10 py-5 border-[#6d9ffdd1] border-t-[1.2px] flexCenter flex-col gap-y-4 text-[#6d9ffdd1]">
+    <footer className="mt-10 py-5 border-[#c1c1c1d1] border-t-[1.2px] flexCenter flex-col gap-y-4 text-[#ffffffe8]">
       <h2 className="flexCenter gap-2 text-base sm:text-xl ">
         Made wiht
         <CiHeart />

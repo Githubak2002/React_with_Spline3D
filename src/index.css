@@ -73,13 +73,19 @@ body {
 
 /* ========= gradient text/bg ========= */
 .gradient-text {
-  background-image: linear-gradient(to right, #e6bbff, #ffffff);
+  background-image: linear-gradient(60deg, #0d5effc5, #ffffff, #399bc2);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 .gradient-text2 {
-  background-image: linear-gradient(to right, #ffb8f2, #8484ff);
+  background-image: linear-gradient(55deg, #ffb8f2d2, #8484ff, #2d67b8d4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-text3 {
+  background-image: linear-gradient(to right, #ffffffaf, #7354a39e);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

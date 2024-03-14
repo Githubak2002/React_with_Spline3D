@@ -17,6 +17,27 @@ export const social_links = [
   },
 ];
 
+export const my_3d_mod = [
+  {
+    label: "tshirt",
+    scene_link: "https://prod.spline.design/OH7uJtp8TWSVrRN9/scene.splinecode",
+  },
+  {
+    label: "chess",
+    scene_link: "https://prod.spline.design/6Xvn5PfnA4yNTMRt/scene.splinecode",
+  },
+  {
+    label: "bulb",
+    scene_link: "https://prod.spline.design/vzIGgPqD5-piUABl/scene.splinecode",
+  },
+  {
+    label: "cup",
+    scene_link: "https://prod.spline.design/A6Cm4Cx0VkGDEDFp/scene.splinecode",
+  },
+];
+
+
+
 export const experience_section = [
   {
     label: "tshirt",
