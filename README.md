@@ -1,8 +1,6 @@
-# React + Vite
+# Ak first 3D WebD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<a href="https://ak3dweb.vercel.app">
+Live here - </a>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1064" alt="3D WebD" src="https://github.com/Githubak2002/React_with_Spline3D/assets/109411443/0dd8e828-eca5-4ccf-9494-d442734244e0">
